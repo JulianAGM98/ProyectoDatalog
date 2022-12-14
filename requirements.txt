@@ -1,0 +1,8 @@
+well_profile==0.7.2
+petrodc==0.2.0b1
+pwptemp==0.3.0a
+torque_drag==0.1.1
+streamlit==1.3.1
+pandas==1.2.2
+openpyxl==3.0.6
+pwploads==0.4.1
