@@ -10,15 +10,15 @@ from footer import add_footer
 
 
 def main():
-    st.set_page_config(
-        page_title="PWP - Open Source",
-        page_icon='https://user-images.githubusercontent.com/52009346/93438445-9c26e400-f8cd-11ea-9183-b6df80ddd318.png'
-    )
+#    st.set_page_config(
+#        page_title="PWP - Open Source",
+#        page_icon='https://user-images.githubusercontent.com/52009346/93438445-9c26e400-f8cd-11ea-9183-b6df80ddd318.png'
+#    )
 
-    st.image('https://github.com/pro-well-plan/opensource_apps/raw/master/resources/pwp-bgd.gif',
-             use_column_width=True)
+#    st.image('https://github.com/pro-well-plan/opensource_apps/raw/master/resources/pwp-bgd.gif',
+#             use_column_width=True)
 
-    selection = add_side_bar()
+#    selection = add_side_bar()
 
     if selection == 'Wellbore 3D':
         add_well_profile_app()
